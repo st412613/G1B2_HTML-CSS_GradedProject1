@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab Test Form</title>
+    <link rel="stylesheet" href="test-form.css" />
+  </head>
+  <body>
+    <div id="upper-div">
+      <div id="inner-div">
+        <div id="did">
+           <form action="">
+            <div class="div1">
+              <h2>1. Your Contact Details</h2>
+              <input
+                class="input"
+                type="text"
+                placeholder="Full Name"
+                required
+              />
+              <input
+                class="input"
+                type="text"
+                placeholder="Patient Id if exists"
+              />
+              <input
+                class="input"
+                type="tel"
+                placeholder="Contact Number"
+                required
+              />
+              <input
+                class="input"
+                type="email"
+                placeholder="Email Id"
+                required
+              />
+            </div>
+            <div class="div1">
+              <h2>2. Address</h2>
+              <input
+                class="input"
+                type="text"
+                placeholder="House Number"
+                required
+              />
+              <input class="input" type="text" placeholder="Street" />
+              <input class="input" type="text" placeholder="Area" />
+              <label id="dist" for="District"><h3>District</h3></label>
+              <select id="District" name="Districtlist" form="Districtform">
+                <option value="choose">Choose</option>
+                <option value="jaunpur">jaunpur</option>
+                <option value="varanasi">Varanasi</option>
+                <option value="mau">Mau</option>
+              </select>
+            </div>
+            <div class="div1">
+              <h2>3. Choose the Test Type</h2>
+              <input
+                type="checkbox"
+                id="test1"
+                name="test1"
+                value="CBC"
+                checked
+              />
+              <label for="test1">CBC</label><br />
+              <input
+                type="checkbox"
+                id="test2"
+                name="test2"
+                value="Complete Urine"
+                
+              />
+              <label for="test2">Complete Urine</label><br />
+              <input
+                type="checkbox"
+                id="test3"
+                name="test3"
+                value="Lipid Profile"
+              />
+              <label for="test3">Lipid Profile</label><br />
+              <input
+                type="checkbox"
+                id="vehicle3"
+                name="test4"
+                value="Thyroid Stimulating Hormone(TSH)"
+              />
+              <label for="test4">Thyroid Stimulating Hormone(TSH)</label><br />
+              <input
+                type="checkbox"
+                id="test5"
+                name="test5"
+                value="Glucose Test"
+              />
+              <label for="test5">Glucose Test</label><br />
+            </div>
+            <div class="div1">
+              <h2>4. Do you want a hard copy of the report also?</h2>
+              <label for="yes">Yes</label>
+              <input type="radio" name="hard copy" value="yes" />
+              <label for="yes">No</label>
+              <input type="radio" name="hard copy" value="no" />
+            </div>
+            <div class="div1">
+              <h2>5. Select Your Comfortable Date and Time</h2>
+              <label for="date">Date</label>
+              <input type="date" id="date" placeholder="dd-mm-yyyy"/>
+              <label for="time">Time</label>
+              <input type="time" id="time" />
+            </div>
+            <div id="button">
+              <button type="reset">Reset</button>
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+        <div class="did">
+          <img src="./Images/Lab-Test/lab-test.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div id="lower-div"></div>
+  </body>
+</html>

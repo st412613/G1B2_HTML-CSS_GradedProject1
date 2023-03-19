@@ -1,0 +1,82 @@
+ body{
+  margin: 0%;
+  box-sizing:border-box;
+}
+
+#upper-div{
+  height: 100%;
+}
+#lower-div{
+  height: 20%;
+}
+
+#inner-div{
+  background-origin: border-box;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: scroll; 
+  display: flex;
+  margin: 40px 50px 0px 50px;
+  height: 460px;
+}
+
+.did{
+  width: 60%;
+  background-size: contain;
+  position: sticky;
+  top:0;
+  right: 0;
+}
+.did img {
+  height: 100%;
+  width: 100%;
+}
+.div1{
+  display:block;
+}
+#did{
+  padding: 2rem;
+  width: 50%;
+}
+
+.input{
+  width: 45%;
+border: none;
+padding: 20px 0px;
+font-size: 1rem;
+border-bottom: 1px solid rgb(184, 179, 179);
+}
+.input:focus{
+ outline: none;
+ 
+}
+#dist{
+  display: block;
+margin: 20px 0px 10px 0px;
+}
+#District{
+  width: 20%;
+height: 30px;
+}
+
+#button{
+  text-align: center;
+  margin-top: 20px;
+  position: fixed;
+  bottom: 4%;
+  right: 15%;
+  width: 100%;
+}
+
+button{
+background-color: #9823af;
+color: white;
+border: none;
+cursor: pointer;
+border-radius: 4px;
+
+height: 30px;
+width: 10%;
+font-size: 15px;
+margin: 0px 10px;
+}
+
